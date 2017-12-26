@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="29A18890-07A3-A36D-0E4B-B32A0319F302" name="ASIGNAR_TAREA">
+<createdBy>christopher</createdBy>
+<createdTime>2017-12-13 12:47:40 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="44563A8C-BAE0-5FDF-9B31-0FB35CB4A389" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_asignaciontarea" id="03D32482-E249-06AB-8544-1241A977C58B">
+<createdBy>christopher</createdBy>
+<createdTime>2017-12-13 12:47:53 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="44563A8C-BAE0-5FDF-9B31-0FB35CB4A389" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="aplicacion" id="E52A49FA-613B-3309-435E-01A3D2CD4096">
+<createdBy>christopher</createdBy>
+<createdTime>2017-12-13 12:48:10 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="44563A8C-BAE0-5FDF-9B31-0FB35CB4A389" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tarea" id="58F4C215-344D-A344-3A61-DC0D19E57EB5">
+<createdBy>christopher</createdBy>
+<createdTime>2017-12-13 12:48:29 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="44563A8C-BAE0-5FDF-9B31-0FB35CB4A389" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_proyecto" id="A71AD4C6-C114-9508-CF68-63B83D65291A">
+<createdBy>christopher</createdBy>
+<createdTime>2017-12-13 12:49:49 UTC</createdTime>
+<generatorID>BDDA4A03-F946-A51F-BD65-4761FFA50A97</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="44563A8C-BAE0-5FDF-9B31-0FB35CB4A389" value="true"/>
+</engineerTo>
+<referedAttribute>8DA18EEB-977A-11EF-558C-3C7AE947BDEF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tarea" id="A5B6E7CA-FB95-4580-D260-4F17B680C404">
+<createdBy>christopher</createdBy>
+<createdTime>2017-12-13 12:49:56 UTC</createdTime>
+<generatorID>9C829C0D-5810-6B4C-36EB-5C7D14B79F21</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="44563A8C-BAE0-5FDF-9B31-0FB35CB4A389" value="true"/>
+</engineerTo>
+<referedAttribute>2DE9C727-0655-F230-5879-DFED5E625607</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="93D7B4BD-84E1-1F3C-C9AE-07851E24BBE5" name="ASIGNAR_TAREA PK">
+<createdBy>christopher</createdBy>
+<createdTime>2017-12-13 12:48:07 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="44563A8C-BAE0-5FDF-9B31-0FB35CB4A389" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>03D32482-E249-06AB-8544-1241A977C58B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
