@@ -1,0 +1,9 @@
+DROP PROCEDURE IF EXISTS insertarUsuario;
+DELIMITER $$
+CREATE procedure insertarUsuario(IN nombre varchar(140),IN correo varchar(140),
+IN fecha date,IN pass varchar(50),IN nickname varchar(50),IN karma int(2))
+BEGIN
+INSERT INTO usuario (nombre,correo,fecha,pass,nickname,karma) values(nombre,correo,fecha,pass,nickname,karma);
+END;
+$$
+
