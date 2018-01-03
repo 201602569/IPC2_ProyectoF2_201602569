@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CFDCA881-D33F-E2AC-B3C0-AFEA8F0CC70C" name="ASIGNNAR_HABILIDAD">
+<createdBy>christopher</createdBy>
+<createdTime>2018-01-03 09:36:30 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="44563A8C-BAE0-5FDF-9B31-0FB35CB4A389" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_asignacionhabilidad" id="196275F5-6AF8-F3B6-690C-39C153383818">
+<createdBy>christopher</createdBy>
+<createdTime>2018-01-03 09:36:46 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="44563A8C-BAE0-5FDF-9B31-0FB35CB4A389" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="6E90148F-E736-028B-2319-74D4D07E4A09">
+<createdBy>christopher</createdBy>
+<createdTime>2018-01-03 09:36:58 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="44563A8C-BAE0-5FDF-9B31-0FB35CB4A389" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_habilidad" id="359964B8-E099-E260-4A70-82518FB38E63">
+<createdBy>christopher</createdBy>
+<createdTime>2018-01-03 09:37:31 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="44563A8C-BAE0-5FDF-9B31-0FB35CB4A389" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario1" id="9FF2BF4F-A241-83C7-3A94-32959860A523">
+<createdBy>christopher</createdBy>
+<createdTime>2018-01-03 09:37:57 UTC</createdTime>
+<generatorID>E1E7FE7D-7D34-D779-A756-B9B77FB6FE4D</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="44563A8C-BAE0-5FDF-9B31-0FB35CB4A389" value="true"/>
+</engineerTo>
+<referedAttribute>83032CF1-2BE3-240B-2C5B-69D21C548D89</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_habilidad1" id="92A20676-6ADB-F9F2-473C-5F10931830D6">
+<createdBy>christopher</createdBy>
+<createdTime>2018-01-03 09:38:19 UTC</createdTime>
+<generatorID>B07028EE-E89D-F655-1E2F-710D8457B404</generatorID>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="44563A8C-BAE0-5FDF-9B31-0FB35CB4A389" value="true"/>
+</engineerTo>
+<referedAttribute>49E17564-7EEB-1919-AC5C-85E95E607DB9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6A26BD24-D9FD-3EDF-8571-2C531C75851B" name="ASIGNNAR_HABILIDAD PK">
+<createdBy>christopher</createdBy>
+<createdTime>2018-01-03 09:36:56 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<engineerTo>
+<item key="44563A8C-BAE0-5FDF-9B31-0FB35CB4A389" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>196275F5-6AF8-F3B6-690C-39C153383818</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
